@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="restaurant">
+
+    <!-- Physics and lighting -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- ROS 2 Gazebo plugins -->
+    <!--<plugin name="ros_init" filename="libgazebo_ros_init.so"/>
+    <plugin name="ros_factory" filename="libgazebo_ros_factory.so"/> -->
+    
+
+    <!-- Restaurant floor boundary -->
+    <model name="restaurant_walls">
+      <static>true</static>
+
+      <!-- Back wall -->
+      <link name="back_wall">
+        <pose>0 4 1 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box><size>10 0.15 2</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>10 0.15 2</size></box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+          </material>
+        </visual>
+      </link>
+
+      <!-- Front wall -->
+      <link name="front_wall">
+        <pose>0 -4 1 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box><size>10 0.15 2</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>10 0.15 2</size></box>
+          </geometry>
+        </visual>
+      </link>
+
+      <!-- Left wall -->
+      <link name="left_wall">
+        <pose>-5 0 1 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box><size>0.15 8 2</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>0.15 8 2</size></box>
+          </geometry>
+        </visual>
+      </link>
+
+      <!-- Right wall -->
+      <link name="right_wall">
+        <pose>5 0 1 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box><size>0.15 8 2</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>0.15 8 2</size></box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Kitchen -->
+    <model name="kitchen">
+      <static>true</static>
+      <pose>3 2 0.45 0 0 0</pose>
+      <link name="kitchen_link">
+        <collision name="collision">
+          <geometry><box><size>1.5 1 0.9</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>1.5 1 0.9</size></box></geometry>
+          <material>
+            <ambient>0.2 0.7 0.2 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Table 1 -->
+    <model name="table1">
+      <static>true</static>
+      <pose>1 -2 0.4 0 0 0</pose>
+      <link name="table_link">
+        <collision name="collision">
+          <geometry><box><size>1 1 0.8</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>1 1 0.8</size></box></geometry>
+          <material>
+            <ambient>0.2 0.2 0.9 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Table 2 -->
+    <model name="table2">
+      <static>true</static>
+      <pose>-1 0 0.4 0 0 0</pose>
+      <link name="table_link">
+        <collision name="collision">
+          <geometry><box><size>1 1 0.8</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>1 1 0.8</size></box></geometry>
+          <material>
+            <ambient>0.2 0.2 0.9 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Table 3 -->
+    <model name="table3">
+      <static>true</static>
+      <pose>1 2 0.4 0 0 0</pose>
+      <link name="table_link">
+        <collision name="collision">
+          <geometry><box><size>1 1 0.8</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>1 1 0.8</size></box></geometry>
+          <material>
+            <ambient>0.2 0.2 0.9 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

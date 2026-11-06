@@ -1,0 +1,53 @@
+[0.015s] Invoking command in '/home/mbw/butler_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake /home/mbw/butler_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mbw/butler_ws/install/turtlebot3_navigation2
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.164s] -- The CXX compiler identification is GNU 11.4.0
+[0.178s] -- Detecting C compiler ABI info
+[0.274s] -- Detecting C compiler ABI info - done
+[0.295s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.295s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.301s] -- Detecting CXX compiler ABI info
+[0.429s] -- Detecting CXX compiler ABI info - done
+[0.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.440s] -- Detecting CXX compile features
+[0.445s] -- Detecting CXX compile features - done
+[0.445s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.675s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.772s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.913s] -- Configuring done
+[0.919s] -- Generating done
+[0.924s] -- Build files have been written to: /home/mbw/butler_ws/build/turtlebot3_navigation2
+[0.937s] Invoked command in '/home/mbw/butler_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake /home/mbw/butler_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mbw/butler_ws/install/turtlebot3_navigation2
+[0.939s] Invoking command in '/home/mbw/butler_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/mbw/butler_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[1.004s] Invoked command in '/home/mbw/butler_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/mbw/butler_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[1.006s] Invoking command in '/home/mbw/butler_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/mbw/butler_ws/build/turtlebot3_navigation2
+[1.019s] -- Install configuration: ""
+[1.019s] -- Execute custom install script
+[1.020s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.038s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.046s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.058s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.074s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[1.086s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[1.107s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[1.112s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[1.123s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[1.136s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.146s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.160s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.172s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.181s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.192s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.209s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.219s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.228s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.246s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.253s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.265s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.278s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.288s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.301s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.310s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.322s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.335s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.350s] Invoked command in '/home/mbw/butler_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/mbw/butler_ws/build/turtlebot3_navigation2

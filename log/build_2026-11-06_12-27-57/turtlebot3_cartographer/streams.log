@@ -1,0 +1,45 @@
+[0.026s] Invoking command in '/home/mbw/butler_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake /home/mbw/butler_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mbw/butler_ws/install/turtlebot3_cartographer
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.239s] -- The CXX compiler identification is GNU 11.4.0
+[0.248s] -- Detecting C compiler ABI info
+[0.358s] -- Detecting C compiler ABI info - done
+[0.370s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.370s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.501s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.510s] -- Detecting CXX compile features
+[0.511s] -- Detecting CXX compile features - done
+[0.524s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.832s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.967s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.108s] -- Configuring done
+[1.112s] -- Generating done
+[1.116s] -- Build files have been written to: /home/mbw/butler_ws/build/turtlebot3_cartographer
+[1.124s] Invoked command in '/home/mbw/butler_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake /home/mbw/butler_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mbw/butler_ws/install/turtlebot3_cartographer
+[1.125s] Invoking command in '/home/mbw/butler_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/mbw/butler_ws/build/turtlebot3_cartographer -- -j4 -l4
+[1.177s] Invoked command in '/home/mbw/butler_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/mbw/butler_ws/build/turtlebot3_cartographer -- -j4 -l4
+[1.191s] Invoking command in '/home/mbw/butler_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/mbw/butler_ws/build/turtlebot3_cartographer
+[1.203s] -- Install configuration: ""
+[1.204s] -- Execute custom install script
+[1.205s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.216s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.229s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.245s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.257s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.268s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.277s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.290s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.301s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.313s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.327s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.337s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.350s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.363s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.375s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.384s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.398s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.412s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.428s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.437s] Invoked command in '/home/mbw/butler_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/mbw/butler_ws/build/turtlebot3_cartographer

@@ -1,0 +1,29 @@
+[1.671s] Invoking command in '/home/mbw/butler_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/mbw/butler_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mbw/butler_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mbw/butler_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mbw/butler_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbw/butler_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/mbw/butler_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mbw/butler_ws/build/turtlebot3_example/build --no-deps symlink_data
+[2.093s] running develop
+[2.413s] running egg_info
+[2.414s] creating turtlebot3_example.egg-info
+[2.415s] writing turtlebot3_example.egg-info/PKG-INFO
+[2.415s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[2.416s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[2.416s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[2.417s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[2.417s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.421s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.422s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.425s] running build_ext
+[2.425s] Creating /home/mbw/butler_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[2.427s] Installing turtlebot3_absolute_move script to /home/mbw/butler_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.427s] Installing turtlebot3_interactive_marker script to /home/mbw/butler_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.429s] Installing turtlebot3_obstacle_detection script to /home/mbw/butler_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.429s] Installing turtlebot3_patrol_client script to /home/mbw/butler_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.429s] Installing turtlebot3_patrol_server script to /home/mbw/butler_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.430s] Installing turtlebot3_relative_move script to /home/mbw/butler_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.430s] 
+[2.431s] Installed /home/mbw/butler_ws/build/turtlebot3_example
+[2.431s] running symlink_data
+[2.432s] creating /home/mbw/butler_ws/install/turtlebot3_example/share/ament_index
+[2.432s] creating /home/mbw/butler_ws/install/turtlebot3_example/share/ament_index/resource_index
+[2.434s] creating /home/mbw/butler_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[2.435s] symbolically linking /home/mbw/butler_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/mbw/butler_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[2.435s] symbolically linking /home/mbw/butler_ws/build/turtlebot3_example/package.xml -> /home/mbw/butler_ws/install/turtlebot3_example/share/turtlebot3_example
+[2.487s] Invoked command in '/home/mbw/butler_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/mbw/butler_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mbw/butler_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mbw/butler_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mbw/butler_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbw/butler_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/mbw/butler_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mbw/butler_ws/build/turtlebot3_example/build --no-deps symlink_data

@@ -1,0 +1,17 @@
+[0.909s] Invoking command in '/home/mbw/butler_ws/build/butler_bot': PYTHONPATH=/home/mbw/butler_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mbw/butler_ws/build/butler_bot/build --no-deps symlink_data
+[1.145s] running develop
+[1.285s] running egg_info
+[1.286s] writing butler_bot.egg-info/PKG-INFO
+[1.286s] writing dependency_links to butler_bot.egg-info/dependency_links.txt
+[1.286s] writing entry points to butler_bot.egg-info/entry_points.txt
+[1.286s] writing requirements to butler_bot.egg-info/requires.txt
+[1.286s] writing top-level names to butler_bot.egg-info/top_level.txt
+[1.288s] reading manifest file 'butler_bot.egg-info/SOURCES.txt'
+[1.289s] writing manifest file 'butler_bot.egg-info/SOURCES.txt'
+[1.290s] running build_ext
+[1.291s] Creating /home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages/butler-bot.egg-link (link to .)
+[1.291s] Installing butler_manager script to /home/mbw/butler_ws/install/butler_bot/lib/butler_bot
+[1.291s] 
+[1.291s] Installed /home/mbw/butler_ws/build/butler_bot
+[1.292s] running symlink_data
+[1.332s] Invoked command in '/home/mbw/butler_ws/build/butler_bot' returned '0': PYTHONPATH=/home/mbw/butler_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mbw/butler_ws/build/butler_bot/build --no-deps symlink_data

@@ -1,0 +1,17 @@
+[0.796s] Invoking command in '/home/mbw/butler_ws/build/butler_bot': CMAKE_PREFIX_PATH=/home/mbw/butler_ws/install/turtlebot3_gazebo:/home/mbw/butler_ws/install/turtlebot3_description:/home/mbw/butler_ws/install/turtlebot3:/home/mbw/butler_ws/install/turtlebot3_simulations:/home/mbw/butler_ws/install/turtlebot3_bringup:/home/mbw/butler_ws/install/turtlebot3_node:/home/mbw/butler_ws/install/turtlebot3_navigation2:/home/mbw/butler_ws/install/turtlebot3_fake_node:/home/mbw/butler_ws/install/turtlebot3_msgs:/home/mbw/butler_ws/install/turtlebot3_manipulation_gazebo:/home/mbw/butler_ws/install/turtlebot3_cartographer:/home/mbw/delivery_bot/install/delivery_bot_interfaces:/home/mbw/delivery_bot/install/delivery_bot_description PYTHONPATH=/home/mbw/butler_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mbw/butler_ws/build/butler_bot/build --no-deps symlink_data
+[1.008s] running develop
+[1.157s] running egg_info
+[1.157s] writing butler_bot.egg-info/PKG-INFO
+[1.160s] writing dependency_links to butler_bot.egg-info/dependency_links.txt
+[1.160s] writing entry points to butler_bot.egg-info/entry_points.txt
+[1.160s] writing requirements to butler_bot.egg-info/requires.txt
+[1.160s] writing top-level names to butler_bot.egg-info/top_level.txt
+[1.161s] reading manifest file 'butler_bot.egg-info/SOURCES.txt'
+[1.162s] writing manifest file 'butler_bot.egg-info/SOURCES.txt'
+[1.164s] running build_ext
+[1.165s] Creating /home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages/butler-bot.egg-link (link to .)
+[1.166s] Installing butler_manager script to /home/mbw/butler_ws/install/butler_bot/lib/butler_bot
+[1.167s] 
+[1.167s] Installed /home/mbw/butler_ws/build/butler_bot
+[1.167s] running symlink_data
+[1.210s] Invoked command in '/home/mbw/butler_ws/build/butler_bot' returned '0': CMAKE_PREFIX_PATH=/home/mbw/butler_ws/install/turtlebot3_gazebo:/home/mbw/butler_ws/install/turtlebot3_description:/home/mbw/butler_ws/install/turtlebot3:/home/mbw/butler_ws/install/turtlebot3_simulations:/home/mbw/butler_ws/install/turtlebot3_bringup:/home/mbw/butler_ws/install/turtlebot3_node:/home/mbw/butler_ws/install/turtlebot3_navigation2:/home/mbw/butler_ws/install/turtlebot3_fake_node:/home/mbw/butler_ws/install/turtlebot3_msgs:/home/mbw/butler_ws/install/turtlebot3_manipulation_gazebo:/home/mbw/butler_ws/install/turtlebot3_cartographer:/home/mbw/delivery_bot/install/delivery_bot_interfaces:/home/mbw/delivery_bot/install/delivery_bot_description PYTHONPATH=/home/mbw/butler_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mbw/butler_ws/build/butler_bot/build --no-deps symlink_data

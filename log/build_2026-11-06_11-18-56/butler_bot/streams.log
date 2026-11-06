@@ -1,0 +1,18 @@
+[0.693s] Invoking command in '/home/mbw/butler_ws/build/butler_bot': PYTHONPATH=/home/mbw/butler_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mbw/butler_ws/build/butler_bot/build --no-deps symlink_data
+[0.886s] running develop
+[1.002s] running egg_info
+[1.002s] writing butler_bot.egg-info/PKG-INFO
+[1.003s] writing dependency_links to butler_bot.egg-info/dependency_links.txt
+[1.003s] writing entry points to butler_bot.egg-info/entry_points.txt
+[1.003s] writing requirements to butler_bot.egg-info/requires.txt
+[1.003s] writing top-level names to butler_bot.egg-info/top_level.txt
+[1.004s] reading manifest file 'butler_bot.egg-info/SOURCES.txt'
+[1.005s] writing manifest file 'butler_bot.egg-info/SOURCES.txt'
+[1.006s] running build_ext
+[1.006s] Creating /home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages/butler-bot.egg-link (link to .)
+[1.006s] Installing butler_manager script to /home/mbw/butler_ws/install/butler_bot/lib/butler_bot
+[1.007s] 
+[1.007s] Installed /home/mbw/butler_ws/build/butler_bot
+[1.007s] running symlink_data
+[1.007s] symbolically linking /home/mbw/butler_ws/build/butler_bot/launch/butler_simulation.launch.py -> /home/mbw/butler_ws/install/butler_bot/share/butler_bot/launch
+[1.028s] Invoked command in '/home/mbw/butler_ws/build/butler_bot' returned '0': PYTHONPATH=/home/mbw/butler_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mbw/butler_ws/build/butler_bot/build --no-deps symlink_data

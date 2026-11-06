@@ -1,0 +1,57 @@
+[0.025s] Invoking command in '/home/mbw/butler_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake /home/mbw/butler_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mbw/butler_ws/install/turtlebot3_description
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.240s] -- The CXX compiler identification is GNU 11.4.0
+[0.249s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.358s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.362s] -- Detecting C compile features
+[0.362s] -- Detecting C compile features - done
+[0.363s] -- Detecting CXX compiler ABI info
+[0.489s] -- Detecting CXX compiler ABI info - done
+[0.515s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.518s] -- Detecting CXX compile features
+[0.518s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.805s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.960s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.026s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.215s] -- Configuring done
+[1.224s] -- Generating done
+[1.224s] -- Build files have been written to: /home/mbw/butler_ws/build/turtlebot3_description
+[1.236s] Invoked command in '/home/mbw/butler_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake /home/mbw/butler_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mbw/butler_ws/install/turtlebot3_description
+[1.237s] Invoking command in '/home/mbw/butler_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/mbw/butler_ws/build/turtlebot3_description -- -j4 -l4
+[1.284s] Invoked command in '/home/mbw/butler_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/mbw/butler_ws/build/turtlebot3_description -- -j4 -l4
+[1.285s] Invoking command in '/home/mbw/butler_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/mbw/butler_ws/build/turtlebot3_description
+[1.295s] -- Install configuration: ""
+[1.295s] -- Execute custom install script
+[1.295s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[1.308s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[1.317s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[1.330s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[1.342s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[1.353s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[1.364s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[1.377s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[1.388s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[1.402s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[1.412s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[1.423s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[1.442s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[1.454s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[1.466s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[1.480s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[1.497s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[1.511s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[1.522s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[1.540s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[1.556s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[1.565s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[1.575s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[1.596s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[1.608s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[1.622s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[1.637s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[1.652s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[1.662s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[1.673s] -- Symlinking: /home/mbw/butler_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[1.687s] Invoked command in '/home/mbw/butler_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbw/butler_ws/install/butler_bot:/home/mbw/delivery_bot/install/delivery_bot_sim:/home/mbw/delivery_bot/install/delivery_bot_order_manager:/home/mbw/delivery_bot/install/delivery_bot_mission_manager:/home/mbw/delivery_bot/install/delivery_bot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/mbw/butler_ws/build/turtlebot3_description

@@ -1,0 +1,184 @@
+
+#!/usr/bin/env python3
+
+import math
+import os
+import yaml
+
+import rclpy
+from ament_index_python.packages import get_package_share_directory
+from nav2_simple_commander.robot_navigator import BasicNavigator, TaskResult
+from geometry_msgs.msg import PoseStamped
+from std_msgs.msg import String
+
+
+class ButlerTaskManager(BasicNavigator):
+
+    def __init__(self):
+        super().__init__(node_name='butler_task_manager')
+
+        self.declare_parameter('task_id', 1)
+        self.declare_parameter('tables', ['table1'])
+        self.declare_parameter('confirmation_timeout', 15.0)
+
+        self.task_id = self.get_parameter('task_id').value
+        self.tables = list(self.get_parameter('tables').value)
+        self.timeout = float(
+            self.get_parameter('confirmation_timeout').value
+        )
+
+        # Load actual restaurant waypoints
+        package_share = get_package_share_directory('butler_bot')
+        waypoint_file = os.path.join(
+            package_share, 'config', 'waypoints.yaml'
+        )
+
+        with open(waypoint_file, 'r', encoding='utf-8') as file:
+            config = yaml.safe_load(file)
+
+        self.waypoints = config['waypoints']
+
+        self.confirmation = None
+        self.cancelled = None
+
+        self.create_subscription(
+            String,
+            '/butler/confirm',
+            self.confirm_callback,
+            10
+        )
+
+        self.create_subscription(
+            String,
+            '/butler/cancel',
+            self.cancel_callback,
+            10
+        )
+
+        self.get_logger().info(
+            f'Butler Task Manager started: Task {self.task_id}'
+        )
+
+        self.get_logger().info(
+            f'Loaded waypoints: {list(self.waypoints.keys())}'
+        )
+
+    def confirm_callback(self, msg):
+        self.confirmation = msg.data.strip().lower()
+
+    def cancel_callback(self, msg):
+        self.cancelled = msg.data.strip().lower()
+
+    def create_goal(self, name):
+        waypoint = self.waypoints[name]
+
+        goal = PoseStamped()
+        goal.header.frame_id = 'map'
+        goal.header.stamp = self.get_clock().now().to_msg()
+
+        goal.pose.position.x = float(waypoint['x'])
+        goal.pose.position.y = float(waypoint['y'])
+
+        yaw = float(waypoint['yaw'])
+        goal.pose.orientation.z = math.sin(yaw / 2.0)
+        goal.pose.orientation.w = math.cos(yaw / 2.0)
+
+        return goal
+
+    def navigate(self, destination):
+        self.get_logger().info(
+            f'Navigating to {destination}'
+        )
+
+        self.goToPose(self.create_goal(destination))
+
+        while not self.isTaskComplete():
+            rclpy.spin_once(self, timeout_sec=0.1)
+
+            if self.cancelled:
+                self.cancelTask()
+                self.get_logger().warn(
+                    f'Navigation cancelled: {destination}'
+                )
+                return False
+
+        result = self.getResult()
+
+        if result == TaskResult.SUCCEEDED:
+            self.get_logger().info(
+                f'Successfully reached {destination}'
+            )
+            return True
+
+        self.get_logger().error(
+            f'Navigation failed: {destination}'
+        )
+        return False
+
+    def wait_confirmation(self, stage):
+        self.confirmation = None
+
+        self.get_logger().info(
+            f'Waiting for confirmation: {stage}'
+        )
+
+        import time
+        deadline = time.monotonic() + self.timeout
+
+        while time.monotonic() < deadline:
+            rclpy.spin_once(self, timeout_sec=0.1)
+
+            if self.confirmation == stage:
+                self.get_logger().info(
+                    f'Confirmation received: {stage}'
+                )
+                return True
+
+        self.get_logger().warn(
+            f'Confirmation timeout: {stage}'
+        )
+        return False
+
+    def run_task(self):
+        self.waitUntilNav2Active()
+
+        if not self.navigate('kitchen'):
+            return
+
+        for table in self.tables:
+            if table not in self.waypoints:
+                self.get_logger().error(
+                    f'Invalid table: {table}'
+                )
+                continue
+
+            if not self.navigate(table):
+                continue
+
+        self.navigate('home')
+
+        self.get_logger().info(
+            'Butler delivery mission completed'
+        )
+
+
+def main(args=None):
+    rclpy.init(args=args)
+
+    node = ButlerTaskManager()
+
+    try:
+        node.run_task()
+
+    except KeyboardInterrupt:
+        node.get_logger().warn(
+            'Butler mission interrupted'
+        )
+
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

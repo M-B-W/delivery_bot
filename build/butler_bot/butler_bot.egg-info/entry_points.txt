@@ -1,0 +1,3 @@
+[console_scripts]
+butler_manager = butler_bot.butler_task_manager:main
+

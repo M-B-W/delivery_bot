@@ -1,0 +1,133 @@
+[0.083s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.083s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7999cdf94160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7999cdf57a90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7999cdf57a90>>, mixin_verb=('build',))
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.207s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mbw/butler_ws'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/butler_bot) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/butler_bot' with type 'ros.ament_python' and name 'butler_bot'
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.248s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/mbw/delivery_bot/install
+[0.249s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 431 installed packages in /opt/ros/humble
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_target' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'butler_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.289s] DEBUG:colcon.colcon_core.verb:Building package 'butler_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mbw/butler_ws/build/butler_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mbw/butler_ws/install/butler_bot', 'merge_install': False, 'path': '/home/mbw/butler_ws/src/butler_bot', 'symlink_install': True, 'test_result_base': None}
+[0.289s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.290s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mbw/butler_ws/src/butler_bot' with build type 'ament_python'
+[0.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('butler_bot', 'ament_prefix_path')
+[0.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mbw/butler_ws/install/butler_bot/share/butler_bot/hook/ament_prefix_path.ps1'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mbw/butler_ws/install/butler_bot/share/butler_bot/hook/ament_prefix_path.dsv'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mbw/butler_ws/install/butler_bot/share/butler_bot/hook/ament_prefix_path.sh'
+[0.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.497s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mbw/butler_ws/src/butler_bot'
+[0.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.802s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, clean, init_catalog, extract_messages, build, saveopts, setopt, upload_docs, bdist_egg, easy_install, check, install_headers, develop, bdist, register, alias, install_scripts, compile_catalog, upload, bdist_dumb, test, build_py, bdist_rpm, egg_info, update_catalog, bdist_wheel, build_ext, symlink_data, dist_info, install_lib, sdist, install_egg_info, build_clib, rotate, build_scripts, install_data
+[1.033s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --force-installation-into-system-dir, --help, --prefix, --find-links, --always-copy, --quiet, --record, --install-layout, --script-dir, --allow-hosts, --install-dir, --egg-path, --user, --upgrade, --site-dirs, --verbose, --editable, --no-user-cfg, --version, --always-unzip, --optimize, --build-directory, --uninstall, --dry-run, --no-deps, --zip-ok, --no-find-links, --exclude-scripts, --local-snapshots-ok, --multi-version, --index-url
+[1.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mbw/butler_ws/build/butler_bot': PYTHONPATH=/home/mbw/butler_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mbw/butler_ws/build/butler_bot/build --no-deps symlink_data
+[1.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('butler_bot', 'pythonpath_develop')
+[1.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mbw/butler_ws/build/butler_bot/share/butler_bot/hook/pythonpath_develop.ps1'
+[1.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mbw/butler_ws/build/butler_bot' returned '0': PYTHONPATH=/home/mbw/butler_ws/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mbw/butler_ws/build/butler_bot/build --no-deps symlink_data
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mbw/butler_ws/build/butler_bot/share/butler_bot/hook/pythonpath_develop.dsv'
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mbw/butler_ws/build/butler_bot/share/butler_bot/hook/pythonpath_develop.sh'
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/mbw/butler_ws/install/butler_bot' for CMake module files
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/mbw/butler_ws/install/butler_bot' for CMake config files
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/mbw/butler_ws/install/butler_bot/lib'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/mbw/butler_ws/install/butler_bot/bin'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/mbw/butler_ws/install/butler_bot/lib/pkgconfig/butler_bot.pc'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/mbw/butler_ws/install/butler_bot/lib/python3.10/site-packages'
+[1.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('butler_bot', 'pythonpath')
+[1.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mbw/butler_ws/install/butler_bot/share/butler_bot/hook/pythonpath.ps1'
+[1.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mbw/butler_ws/install/butler_bot/share/butler_bot/hook/pythonpath.dsv'
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mbw/butler_ws/install/butler_bot/share/butler_bot/hook/pythonpath.sh'
+[1.446s] Level 1:colcon.colcon_core.environment:checking '/home/mbw/butler_ws/install/butler_bot/bin'
+[1.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(butler_bot)
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/mbw/butler_ws/install/butler_bot/share/butler_bot/package.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mbw/butler_ws/install/butler_bot/share/butler_bot/package.dsv'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/mbw/butler_ws/install/butler_bot/share/butler_bot/package.sh'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/mbw/butler_ws/install/butler_bot/share/butler_bot/package.bash'
+[1.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/mbw/butler_ws/install/butler_bot/share/butler_bot/package.zsh'
+[1.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mbw/butler_ws/install/butler_bot/share/colcon-core/packages/butler_bot)
+[1.449s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.450s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.453s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.462s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.463s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mbw/butler_ws/install/local_setup.ps1'
+[1.464s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mbw/butler_ws/install/_local_setup_util_ps1.py'
+[1.465s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mbw/butler_ws/install/setup.ps1'
+[1.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mbw/butler_ws/install/local_setup.sh'
+[1.466s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mbw/butler_ws/install/_local_setup_util_sh.py'
+[1.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mbw/butler_ws/install/setup.sh'
+[1.467s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mbw/butler_ws/install/local_setup.bash'
+[1.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mbw/butler_ws/install/setup.bash'
+[1.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mbw/butler_ws/install/local_setup.zsh'
+[1.468s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mbw/butler_ws/install/setup.zsh'
